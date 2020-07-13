@@ -24,8 +24,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
     implementation 'org.springframework.boot:spring-boot-devtools'
-    implementation 'org.webjars:bootstrap:4.3.1'
-    implementation 'org.projectlombok:lombok:1.18.12'
+    implementation 'org.webjars:bootstrap'
+    implementation 'org.projectlombok:lombok'
+    implementation 'net.sourceforge.htmlunit:htmlunit'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     js 'jquery:jquery:3.2.1@js'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
